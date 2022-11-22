@@ -1,0 +1,94 @@
+
+.submit-btn {
+    cursor: pointer;
+    width:100%;
+    background-image: linear-gradient(to bottom right, rgb(56, 59, 255), rgb(0, 119, 255));
+    color:white;
+    font-weight: bold;
+    border:0;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    padding:10px 0;
+
+}
+
+.reg-title {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.submit-btn:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   
+}
+
+.forgotPassword {
+    width: 100%;
+    font-size: small;
+    text-align: right;
+}
+
+.forgotPassword a{
+    text-decoration: none;
+    color:grey;
+}
+
+.forgotPassword a:hover {
+    color:black;
+}
+
+.backToLogin {
+    width: 100%;
+    font-size: small;
+    text-align: center;
+}
+
+.switchBetweenLoginAndRegister a{
+    color:rgb(36, 50, 240)
+}
+
+.Name {
+    display: block
+}
+
+.accountDetailsTitle{
+   font-size: 1.2em;
+}
+
+.accountDetailsInput {
+    width:100%;
+    margin: 0px;
+}
+
+/*password validation buble*/
+
+.pwd {
+    display: block;
+    position: relative;
+}
+
+
+.pwdValidation {
+  padding: 10px;
+  display: none;
+  width: 80%;
+  font-size: 18px;
+  position: absolute;
+  background-color: #1c1c1c;
+  border:5px solid #d6111e;
+  z-index: 1;
+  left: 103%;
+  top: 8px;
+}
+
+.pwdValidation p {
+  color: red;
+  margin: 0px;
+  padding: 5px 20px;
+  text-decoration: none;
+  display: block;
+}
+
+
+
+

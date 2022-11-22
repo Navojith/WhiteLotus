@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" 
+						xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+						xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+	<servlet>
+	  	<servlet-name>insertPromo</servlet-name>
+	  	<servlet-class>com.servlets.insertPromoServlet</servlet-class>
+  	</servlet>
+  	<servlet-mapping>
+  		<servlet-name>insertPromo</servlet-name>
+  		<url-pattern>/insertPromo</url-pattern>
+  	</servlet-mapping>
+  	
+  	<servlet>
+	  	<servlet-name>updatePromo</servlet-name>
+	  	<servlet-class>com.servlets.updatePromoServlet</servlet-class>
+  	</servlet>
+  	<servlet-mapping>
+  		<servlet-name>updatePromo</servlet-name>
+  		<url-pattern>/updatePromo</url-pattern>
+  	</servlet-mapping>
+  	
+  	<servlet>
+	  	<servlet-name>deletePromo</servlet-name>
+	  	<servlet-class>com.servlets.deletePromoServlet</servlet-class>
+  	</servlet>
+  	<servlet-mapping>
+  		<servlet-name>deletePromo</servlet-name>
+  		<url-pattern>/deletePromo</url-pattern>
+  	</servlet-mapping>
+  	
+  	<servlet>
+	  	<servlet-name>displayPromo</servlet-name>
+	  	<servlet-class>com.servlets.displayPromoServlet</servlet-class>
+  	</servlet>
+  	<servlet-mapping>
+  		<servlet-name>displayPromo</servlet-name>
+  		<url-pattern>/displayPromo</url-pattern>
+  	</servlet-mapping>
+  	
+  	<servlet>
+	  	<servlet-name>promoBanner</servlet-name>
+	  	<servlet-class>com.servlets.frontPromoBannerServlet</servlet-class>
+  	</servlet>
+  	<servlet-mapping>
+  		<servlet-name>promoBanner</servlet-name>
+  		<url-pattern>/index</url-pattern>
+  	</servlet-mapping>
+  	
+  	<servlet>
+	  	<servlet-name>payment</servlet-name>
+	  	<servlet-class>com.servlets.paymentServlet</servlet-class>
+  	</servlet>
+  	<servlet-mapping>
+  		<servlet-name>payment</servlet-name>
+  		<url-pattern>/payment</url-pattern>
+  	</servlet-mapping>
+  	
+  	<servlet>
+	  	<servlet-name>promoCode</servlet-name>
+	  	<servlet-class>com.servlets.promoCodeServlet</servlet-class>
+  	</servlet>
+  	<servlet-mapping>
+  		<servlet-name>promoCode</servlet-name>
+  		<url-pattern>/promoCode</url-pattern>
+  	</servlet-mapping>
+  	
+  	
+  	<servlet>
+	  	<servlet-name>paymentStrat</servlet-name>
+	  	<servlet-class>com.servlets.paymentStratServlet</servlet-class>
+  	</servlet>
+  	<servlet-mapping>
+  		<servlet-name>paymentStrat</servlet-name>
+  		<url-pattern>/paymentStrat</url-pattern>
+  	</servlet-mapping>
+  	
+ <!--************************************************2************************************************************ --> 	
+  <servlet>
+    <servlet-name>logOut</servlet-name>
+    <servlet-class>com.servlets.logoutServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>logOut</servlet-name>
+    <url-pattern>/out</url-pattern>
+  </servlet-mapping>
+  	  
+  	  <servlet>
+    <servlet-name>loginServlet</servlet-name>
+    <servlet-class>com.servlets.LoginServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>loginServlet</servlet-name>
+    <url-pattern>/log</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>regServlet</servlet-name>
+    <servlet-class>com.servlets.registerServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>regServlet</servlet-name>
+    <url-pattern>/reg</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>updateProfileServlet</servlet-name>
+    <servlet-class>com.servlets.updateProfileServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>updateProfileServlet</servlet-name>
+    <url-pattern>/updateProfile</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>deleteAccountServlet</servlet-name>
+    <servlet-class>com.servlets.deleteAccountServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>deleteAccountServlet</servlet-name>
+    <url-pattern>/deleteAccount</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>changePwdServlet</servlet-name>
+    <servlet-class>com.servlets.changePwdServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>changePwdServlet</servlet-name>
+    <url-pattern>/changePwd</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>UserManagement</servlet-name>
+    <servlet-class>com.servlets.UserManagement</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UserManagement</servlet-name>
+    <url-pattern>/UserManagement</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>addAdmin</servlet-name>
+    <servlet-class>com.servlets.addAdmin</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>addAdmin</servlet-name>
+    <url-pattern>/addAdmin</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>deleteAdmin</servlet-name>
+    <servlet-class>com.servlets.deleteAdmin</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>deleteAdmin</servlet-name>
+    <url-pattern>/deleteAdmin</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>viewAdmin</servlet-name>
+    <servlet-class>com.servlets.viewAdmin</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>viewAdmin</servlet-name>
+    <url-pattern>/viewAdmin</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>uProfile</servlet-name>
+    <servlet-class>com.servlets.uProfile</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>uProfile</servlet-name>
+    <url-pattern>/uProfile</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+<!-- ***************************************************************************************************************************** -->
+  	
+  <servlet>
+        <servlet-name>reservation</servlet-name>
+        <servlet-class>com.servlets.ReservationServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>reservation</servlet-name>
+        <url-pattern>/reservation</url-pattern>
+        
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>table</servlet-name>
+        <servlet-class>com.servlets.RemoveReservationServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>table</servlet-name>
+        <url-pattern>/table</url-pattern>
+    </servlet-mapping>	
+  	
+  	
+<!-- *************************************************************************************************************************************** -->
+<servlet>
+	  	<servlet-name>insertPackage</servlet-name>
+	  	<servlet-class>com.servlets.insertPackageServlet</servlet-class>
+  	</servlet>
+  	<servlet-mapping>
+  		<servlet-name>insertPackage</servlet-name>
+  		<url-pattern>/insertPackage</url-pattern>
+  	</servlet-mapping>
+  	
+  	<servlet>
+	  	<servlet-name>updatePackage</servlet-name>
+	  	<servlet-class>com.servlets.updatePackageServlet</servlet-class>
+  	</servlet>
+  	<servlet-mapping>
+  		<servlet-name>updatePackage</servlet-name>
+  		<url-pattern>/updatePackage</url-pattern>
+  	</servlet-mapping>
+  	
+  	<servlet>
+	  	<servlet-name>deletePackage</servlet-name>
+	  	<servlet-class>com.servlets.deletePackageServlet</servlet-class>
+  	</servlet>
+  	<servlet-mapping>
+  		<servlet-name>deletePackage</servlet-name>
+  		<url-pattern>/deletePackage</url-pattern>
+  	</servlet-mapping>
+  	
+  	<servlet>
+	  	<servlet-name>displayPackageUser</servlet-name>
+	  	<servlet-class>com.servlets.displayPackageUserServlet</servlet-class>
+  	</servlet>
+  	<servlet-mapping>
+  		<servlet-name>displayPackageUser</servlet-name>
+  		<url-pattern>/displayPackageUser</url-pattern>
+  	</servlet-mapping>
+  	
+  	<servlet>
+	  	<servlet-name>displayPackage</servlet-name>
+	  	<servlet-class>com.servlets.displayPackageServlet</servlet-class>
+  	</servlet>
+  	<servlet-mapping>
+  		<servlet-name>displayPackage</servlet-name>
+  		<url-pattern>/package</url-pattern>
+  	</servlet-mapping>  
+  	
+  </web-app>		

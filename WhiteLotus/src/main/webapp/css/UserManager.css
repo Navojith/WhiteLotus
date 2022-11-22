@@ -1,0 +1,39 @@
+table, td, th {
+	border:3px solid black;
+}
+
+thead {
+	background-color:#7046f0;
+	color:white;
+}
+
+td, th {
+	text-align:center;
+	padding:15px;
+}
+
+table {
+	margin: auto;
+}
+
+table caption {
+	text-align:right;
+}
+
+#mkAdminBtn {
+	color:black; 
+	font-weight:bold;
+	font-size:14px;
+}
+
+#shAdminBtn {
+	padding:18px;
+	color:black; 
+	font-weight:bold;
+	font-size:16px;
+}
+
+#shAdminBtn:hover {
+	background-color:#3465a4;
+	border-color:#3465a4;
+}

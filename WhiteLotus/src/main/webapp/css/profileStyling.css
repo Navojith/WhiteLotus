@@ -1,0 +1,223 @@
+*profile page edit*/
+#profileCardOutter  {
+    float: none;
+    margin: auto;
+    display: block;
+}
+
+#profileCardInner {
+    width:50%;
+    display: block;
+    
+}
+
+#profile {
+    display: block;
+}
+
+.displayPicture {
+    display: block;
+    margin: auto;
+    width: 125%;
+   
+}
+.c {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    overflow: hidden;
+    background-color: black;
+    border: 2px solid black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+fieldset {
+    padding: 20px 40px;
+}
+
+#saveChangesbtn, #cancelSaveChangesbtn {
+    transition-duration: 0.4s;
+    float: right;
+    margin-left: 5px;
+    color: white;
+    border-radius: 5px;
+    font-size: 17px;
+    font-weight: bold;
+    padding: 10px 19px;   
+    background-color:#04AA6D;
+    border: 0px;
+}
+
+#saveChangesbtn:hover {
+    cursor: pointer;
+    background-color: rgb(67,199,135);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#cancelSaveChangesbtn {
+    background-color: rgb(217,8,36);
+}
+
+#cancelSaveChangesbtn a{
+    text-decoration: none;
+    color: white;
+}
+
+#cancelSaveChangesbtn:hover {
+    cursor: pointer;
+    background-color: rgb(228,82,101);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#cancelSaveChangesbtn::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+#advancedOptions {
+	padding:10px;
+	background-color:#1c1c1c;
+    margin-top: 100px ;
+    border: 4px solid #d6111e;
+    
+}
+
+
+.advancedOptionsbtn{
+  color: #d6111e;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  font-weight:bold;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  background-color: #1c1c1c; 
+  border: 4px solid #d6111e;
+}
+
+
+.advancedOptionsbtn:hover {
+  background-color: #d6111e;
+  color: white;
+}
+
+#editAccountBtn {
+	color: red;
+	text-decoration: none;
+}
+
+#editAccountBtnDiv:hover #editAccountBtn {
+	color: white;
+}
+
+#welcomeToProfileMsg {
+	display: inline;
+
+}
+
+#profileFName {
+	display: inline;
+	
+}
+
+.profileWelcome {
+	margin: auto;
+	text-align: center;
+}
+
+
+
+.advancedOptionsOverlayBtn {
+    transition-duration: 0.4s;
+    float: right;
+    margin-left: 5px;
+    color: white;
+    border-radius: 5px;
+    font-size: 17px;
+    font-weight: bold;
+    padding: 10px 19px;   
+    background-color:#04AA6D;
+    border: 0px;
+}
+
+.advancedOptionsOverlayBtn:hover {
+    cursor: pointer;
+    background-color: rgb(67,199,135);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.closeOverlay {
+    background-color: rgb(217,8,36);
+}
+
+.closeOverlay:hover {
+    cursor: pointer;
+    background-color: rgb(228,82,101);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.overlay {
+  transition: 0.4s;
+  height: 0%;
+  width: 100%;
+  position: fixed; 
+  z-index: 1; 
+  left: 0;
+  bottom: 0;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.9); 
+  overflow-x: hidden; 
+ 
+}
+
+#a1 {
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    width: 50%;
+    float: left;
+    margin: 0px 0px;
+
+}
+
+#uploadProfileImg {
+    position: absolute;
+    right: 20px;    
+}
+
+#a2 {
+    height: 41px;
+    position: relative;
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    width: 50%;
+    float: left;
+}
+
+.uploadDPDiv {
+    height: 50px;
+    width: 100%;
+    background-color: black;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.accountDetailsInputFocus:focus {
+	border:2px solid black;
+	transition-duration: 0.4s;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#hiddenCompartmentAdvancedOptions {
+	overflow:auto;
+}
