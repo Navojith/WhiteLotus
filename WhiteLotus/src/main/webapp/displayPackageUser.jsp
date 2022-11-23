@@ -111,12 +111,11 @@
 			 	 		</div>
 					</div>
 			 	</div>
-    		</li>
-		</c:forEach>
-		</div>
-		</ul>
-		
-		</section>
+			</li>
+			</c:forEach>
+			</div>
+			</ul>
+	</section>
  
 
 
@@ -132,7 +131,7 @@
 						<a href="#">Our Rooms</a>
 						<a href="#">Contact</a>
 					</div>
-					<p class="mb-0 py-3">Copyright 2022 © Designed by SE/OOP_MLB_WD_2022_S2_199. All rights reserved</p>
+					<p class="mb-0 py-3">Copyright 2022 Â© Designed by SE/OOP_MLB_WD_2022_S2_199. All rights reserved</p>
 					<div>
 						<a href="#">Facebook</a>
 						<a href="#">Instagram</a>
