@@ -1,3 +1,4 @@
+<!--IT21237904-->
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
 <!doctype html>
@@ -95,7 +96,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-12">
-					<p class="mb-0 py-3">Copyright 2022 © Designed by SE/OOP_MLB_WD_2022_S2_199. All rights reserved</p>
+					<p class="mb-0 py-3">Copyright 2022 Â© Designed by SE/OOP_MLB_WD_2022_S2_199. All rights reserved</p>
 				</div>
 			</div>
 		</div>
